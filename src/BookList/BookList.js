@@ -4,7 +4,7 @@ import Book from '../Book/Book';
 
 export default function BookList(props) {
     const{bookResults} = props;
-    const listOfBook = bookResults.items
+    const listOfBooks = bookResults.items
         .map((book, index) => <Book book={book} key={index} />)
     
     return (

@@ -9,20 +9,10 @@ h1 {
     margin: 0;
 }
 
-.header-title {
+.header_title {
     color: white;
     font-size: 40px;
     padding-top: 30px;
     padding-bottom: 8px;
     text-align: center;
-    border-bottom: solid white 3px;
-}
-
-.header_subtitle {
-    color: lightgrey;
-    font-size: 20px;
-    text-align: center;
-    font-style: italic;
-    position: relative;
-    bottom: 20px;
 }

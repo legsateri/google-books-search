@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 
 import Header from './Header/Header';
@@ -65,9 +65,9 @@ export default class App extends Component {
   }
 
   handlePrintType = (printTypeFormEvent) => {
-    if(bookTypeFormEvent) {
+    if(printTypeFormEvent) {
       this.setState({
-        bookFilter: bookTypeFormEvent
+        bookFilter: printTypeFormEvent
       });
     }
   }
